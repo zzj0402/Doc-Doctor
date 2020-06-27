@@ -1,5 +1,6 @@
 {
   "name": "doc-doctor",
+  "publisher": "zzj0402",
   "displayName": "Doc Doctor",
   "description": "Docstring checker",
   "version": "0.0.1",
