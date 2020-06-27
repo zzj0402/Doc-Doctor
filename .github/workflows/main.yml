@@ -26,5 +26,3 @@ jobs:
       - name: Publish
         if: success()
         run: npm run deploy -p $VSCE_PAT
-        env:
-          VSCE_PAT: $
