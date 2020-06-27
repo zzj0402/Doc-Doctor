@@ -25,4 +25,4 @@ jobs:
           run: npm test
       - name: Publish
         if: success()
-        run: npm run deploy -p $VSCE_PAT
+        run: yarn add vsce --dev && yarn package && yarn deploy -p $VSCE_PAT
