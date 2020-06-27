@@ -4,6 +4,7 @@
   "displayName": "Doc Doctor",
   "description": "Docstring checker",
   "version": "0.0.1",
+  "repository": "https://github.com/zzj0402/Doc-Doctor",
   "engines": {
     "vscode": "^1.46.0"
   },
