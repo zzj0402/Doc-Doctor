@@ -1,0 +1,159 @@
+{
+  "software": {
+    "name": "GrammarBot",
+    "version": "4.3.1",
+    "apiVersion": 1,
+    "premium": true,
+    "premiumHint": "Thanks for supporting GrammarBot!",
+    "status": ""
+  },
+  "warnings": { "incompleteResults": false },
+  "language": {
+    "name": "English (US)",
+    "code": "en-US",
+    "detectedLanguage": { "name": "English (US)", "code": "en-US" }
+  },
+  "matches": [
+    {
+      "message": "Possible spelling mistake found",
+      "shortMessage": "Spelling mistake",
+      "replacements": [
+        { "value": "Is" },
+        { "value": "His" },
+        { "value": "Its" },
+        { "value": "INS" },
+        { "value": "IRS" },
+        { "value": "Iris" },
+        { "value": "IDs" },
+        { "value": "Isis" },
+        { "value": "IVs" },
+        { "value": "Ibis" },
+        { "value": "Ifs" },
+        { "value": "Sis" },
+        { "value": "AIs" },
+        { "value": "Dis" },
+        { "value": "ISIS" },
+        { "value": "ISS" },
+        { "value": "Wis" },
+        { "value": "Bis" },
+        { "value": "iOS" },
+        { "value": "Ids" },
+        { "value": "Ii" },
+        { "value": "Iii" },
+        { "value": "Ins" },
+        { "value": "Pis" },
+        { "value": "Xis" },
+        { "value": "I is" },
+        { "value": "IIS" },
+        { "value": "AIS" },
+        { "value": "BIS" },
+        { "value": "EIS" },
+        { "value": "GIS" },
+        { "value": "IAS" },
+        { "value": "IDS" },
+        { "value": "IES" },
+        { "value": "IFS" },
+        { "value": "IGS" },
+        { "value": "IHS" },
+        { "value": "IIA" },
+        { "value": "IIC" },
+        { "value": "IIF" },
+        { "value": "IIM" },
+        { "value": "IIN" },
+        { "value": "IIT" },
+        { "value": "IMS" },
+        { "value": "IOS" },
+        { "value": "IPS" },
+        { "value": "IRIS" },
+        { "value": "IS" },
+        { "value": "ITIS" },
+        { "value": "ITS" },
+        { "value": "PIS" },
+        { "value": "RIS" },
+        { "value": "SIS" },
+        { "value": "TIS" }
+      ],
+      "offset": 0,
+      "length": 3,
+      "context": {
+        "text": "Iis this a stes comment with lost of errors...",
+        "offset": 0,
+        "length": 3
+      },
+      "sentence": "Iis this a stes comment with lost of errorses.",
+      "type": { "typeName": "Other" },
+      "rule": {
+        "id": "MORFOLOGIK_RULE_EN_US",
+        "description": "Possible spelling mistake",
+        "issueType": "misspelling",
+        "category": { "id": "TYPOS", "name": "Possible Typo" }
+      }
+    },
+    {
+      "message": "Possible spelling mistake found",
+      "shortMessage": "Spelling mistake",
+      "replacements": [
+        { "value": "sees" },
+        { "value": "sets" },
+        { "value": "sites" },
+        { "value": "step" },
+        { "value": "stem" },
+        { "value": "steps" },
+        { "value": "stems" },
+        { "value": "stew" },
+        { "value": "Estes" },
+        { "value": "stews" },
+        { "value": "sues" },
+        { "value": "stet" },
+        { "value": "sties" },
+        { "value": "sates" },
+        { "value": "stets" },
+        { "value": "Ste" },
+        { "value": "Utes" },
+        { "value": "shes" },
+        { "value": "st es" },
+        { "value": "ITES" },
+        { "value": "SES" },
+        { "value": "SNES" },
+        { "value": "STE" },
+        { "value": "STS" },
+        { "value": "TES" }
+      ],
+      "offset": 11,
+      "length": 4,
+      "context": {
+        "text": "Iis this a stes comment with lost of errorses.",
+        "offset": 11,
+        "length": 4
+      },
+      "sentence": "Iis this a stes comment with lost of errorses.",
+      "type": { "typeName": "Other" },
+      "rule": {
+        "id": "MORFOLOGIK_RULE_EN_US",
+        "description": "Possible spelling mistake",
+        "issueType": "misspelling",
+        "category": { "id": "TYPOS", "name": "Possible Typo" }
+      }
+    },
+    {
+      "message": "Possible spelling mistake found",
+      "shortMessage": "Spelling mistake",
+      "replacements": [{ "value": "errors es" }],
+      "offset": 37,
+      "length": 8,
+      "context": {
+        "text": "Iis this a stes comment with lost of errorses.",
+        "offset": 37,
+        "length": 8
+      },
+      "sentence": "Iis this a stes comment with lost of errorses.",
+      "type": { "typeName": "Other" },
+      "rule": {
+        "id": "MORFOLOGIK_RULE_EN_US",
+        "description": "Possible spelling mistake",
+        "issueType": "misspelling",
+        "category": { "id": "TYPOS", "name": "Possible Typo" }
+      }
+    }
+  ]
+}

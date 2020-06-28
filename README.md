@@ -14,3 +14,7 @@ Checking grammar of the docstring.
 
 1. Go to <https://www.grammarbot.io/>, register an account.
 1. Save the api key to settings.json for doc_doctor.key
+
+## Usage
+
+When installed, open command pallet, then select "Hello World"

@@ -3,7 +3,7 @@
   "publisher": "zzj0402",
   "displayName": "Doc Doctor",
   "description": "Docstring checker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "https://github.com/zzj0402/Doc-Doctor",
   "engines": {
     "vscode": "^1.46.0"
@@ -12,7 +12,8 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:doc-doctor.helloWorld"
+    "onCommand:doc-doctor.helloWorld",
+    "onDebug"
   ],
   "main": "./extension.js",
   "contributes": {
@@ -56,6 +57,8 @@
     "vscode-test": "^1.3.0"
   },
   "dependencies": {
+    "docstring": "^1.1.0",
+    "extract-comments": "^1.1.0",
     "request": "^2.88.2"
   }
 }
