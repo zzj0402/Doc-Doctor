@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  build:
+  test:
     strategy:
       matrix:
         os: [macos-latest, ubuntu-latest, windows-latest]
@@ -23,3 +23,22 @@ jobs:
         uses: GabrielBB/xvfb-action@v1.2
         with:
           run: npm test
+  publish:
+    name: Publish
+    needs: test
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+      - name: Install dependencies
+        run: npm install
+      - name: Deploy to Market
+        uses: JCofman/vscodeaction@master
+        env:
+          PUBLISHER_TOKEN: ${{ secrets.VSCE_PAT }}
+        with:
+          args: publish -p $PUBLISHER_TOKEN
