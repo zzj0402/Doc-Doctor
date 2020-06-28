@@ -1,7 +1,1 @@
-require("docstring");
-
-var test = function (data) {
-  /** @params {string} data */
-};
-
-console.log(test.__doc__); // @params {string} data
+//Iis this a stes comment with lost of errorses.
