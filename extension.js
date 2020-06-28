@@ -55,7 +55,7 @@ function activate(context) {
               var results = JSON.parse(body)["matches"];
               console.log(results);
               results.forEach((error) => {
-                vscode.window.showInformationMessage(error.message);
+                vscode.window.showErrorMessage(error.message);
               });
             });
           });
