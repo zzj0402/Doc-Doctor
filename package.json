@@ -12,7 +12,8 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:doc-doctor.helloWorld"
+    "onCommand:doc-doctor.helloWorld",
+    "onDebug"
   ],
   "main": "./extension.js",
   "contributes": {
@@ -56,6 +57,7 @@
     "vscode-test": "^1.3.0"
   },
   "dependencies": {
+    "docstring": "^1.1.0",
     "request": "^2.88.2"
   }
 }

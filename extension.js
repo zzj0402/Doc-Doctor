@@ -39,7 +39,14 @@ function activate(context) {
     "doc-doctor.helloWorld",
     function () {
       // The code you place here will be executed every time your command is executed
-
+      var currentlyOpenTabfilePath =
+        vscode.window.activeTextEditor.document.fileName;
+      vscode.workspace
+        .openTextDocument(currentlyOpenTabfilePath)
+        .then((document) => {
+          let text = document.getText();
+          console.log(text);
+        });
       // Display a message box to the user
       vscode.window.showInformationMessage("Hello World from Doc Doctor!");
     }
