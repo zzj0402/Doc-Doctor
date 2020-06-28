@@ -4,6 +4,11 @@ All notable changes to the "doc-doctor" extension will be documented in this fil
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.3
+
+- Add Javascript Documentation extraction
+- Display error message with pop-ups
+
 ## 0.0.2
 
 - Added GrammarBot API
