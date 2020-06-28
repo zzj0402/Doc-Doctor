@@ -23,7 +23,3 @@ jobs:
         uses: GabrielBB/xvfb-action@v1.2
         with:
           run: npm test
-      - name: Publish
-        run: npm run deploy -p $VSCE_PAT
-        env:
-          VSCE_PAT: ${{VSCE_PAT}}
